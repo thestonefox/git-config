@@ -4,6 +4,7 @@ git-config
 * cd user home directory `cd ~/`
 * Git clone `git clone git@github.com:thestonefox/git-config.git`
 * Symlink .gitconfig `ln -s git-config/.gitconfig ~/.gitconfig`
+* Symlink .gitignore `ln -s git-ignore/.gitignore ~/.gitignore`
 * Run helpers.sh to get git shortcuts `./helpers.sh`
 
 Helpers
