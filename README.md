@@ -16,4 +16,7 @@ The following alias shortcuts can be added by running `helpers.sh`
 * gits = shortcut for git status
 * gitb = shortcut for git branch
 
-
+Single Config Command
+```
+cd ~/ && git clone git@github.com:thestonefox/git-config.git && ln -s git-config/.gitconfig ~/.gitconfig && ln -s git-ignore/.gitignore ~/.gitignore && ./git-config/helpers.sh && source ~/.bashrc
+```
